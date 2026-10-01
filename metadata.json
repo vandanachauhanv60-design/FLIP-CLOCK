@@ -1,0 +1,6 @@
+{
+  "name": "FLIP_CLOCK",
+  "description": "Vintage black and white mechanical flip clock with built-in alarm clock, Pomodoro focus mode with breaks, to-do list, and Spotify & YouTube Music controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

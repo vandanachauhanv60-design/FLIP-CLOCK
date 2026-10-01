@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Card Drop Shadow/Glow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M26,27 h56 a7,7 0 0 1 7,7 v42 a7,7 0 0 1 -7,7 h-56 a7,7 0 0 1 -7,-7 v-42 a7,7 0 0 1 7,-7 z" />
+    <!-- Top Half Flap Card -->
+    <path
+        android:fillColor="#2C2C30"
+        android:pathData="M27,28 h54 a6,6 0 0 1 6,6 v19 h-66 v-19 a6,6 0 0 1 6,-6 z" />
+    <!-- Bottom Half Flap Card (Slightly darker for depth) -->
+    <path
+        android:fillColor="#1E1E22"
+        android:pathData="M21,55 h66 v19 a6,6 0 0 1 -6,6 h-54 a6,6 0 0 1 -6,-6 z" />
+    <!-- Center Split Flap Gap Line -->
+    <path
+        android:fillColor="#0D0D10"
+        android:pathData="M20,53 h68 v2 h-68 z" />
+    <!-- Side Hinge Pin Notches -->
+    <path
+        android:fillColor="#0D0D10"
+        android:pathData="M19,51 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#0D0D10"
+        android:pathData="M85,51 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,53 h2 v2 h-2 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M86,53 h2 v2 h-2 z" />
+
+    <!-- Bold Stylized Digits: "12" -->
+    <!-- Digit "1": Left card number -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,36 h6 v36 h-6 z M35,42 l4,-6 h4 v42 h-6 v-36 z" />
+    <!-- Digit "2": Right card number -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,38 a7,7 0 0 1 12,5 c0,5 -5,9 -9,13 l-3,3 h12 v6 h-18 v-6 l9,-9 c3,-3 4,-5 4,-7 a3,3 0 0 0 -5,-3 c-2,0 -4,1 -4,3 l-5,-2 a8,8 0 0 1 9,-3 z" />
+
+    <!-- Small "AM" tag in bottom right corner -->
+    <path
+        android:fillColor="#B0B0BA"
+        android:pathData="M73,70 h3 l1,3 h2 l-3,-8 h-2 l-3,8 h2 z M74,68 l1,-3 l1,3 z" />
+</vector>
